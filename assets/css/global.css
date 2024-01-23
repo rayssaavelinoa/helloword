@@ -1,0 +1,21 @@
+/* Importa o CSS do Font Awesome (Biblioteca de ícones) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+/*
+Reset (Normalize)
+Ajusta o CSS para ser exibido da mesma forma em "qualquer" navegador.
+*/
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* Define as fontes do tema */
+}
